@@ -92,7 +92,7 @@
 
     <!-- HERO -->
     <section class="hero-bg pt-16 pb-20">
-        <div class="max-w-6xl mx-auto px-6">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div class="max-w-2xl">
                 <div class="inline-flex items-center gap-2 bg-white px-5 py-2 rounded-3xl text-sm font-medium text-[#0f766e] mb-8 shadow-sm">
                     <span class="text-[#d8a8a0]">●</span>
@@ -136,6 +136,11 @@
                 </a>
                 
                 <p class="mt-6 text-xs text-[#9c8a80]">まずは安心してページをご覧ください</p>
+            </div>
+            <div class="hidden md:block rounded-3xl overflow-hidden shadow-lg">
+                <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                     alt="温かな室内の光" 
+                     class="w-full h-[480px] object-cover opacity-90">
             </div>
         </div>
     </section>
@@ -226,22 +231,41 @@
     <!-- 聞きたい例 -->
     <section class="max-w-6xl mx-auto px-6 py-20 bg-white">
         <h2 class="section-header text-3xl font-semibold mb-10">📝 特に聞かせてほしい状況の例</h2>
-        <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            <div class="flex gap-4">
-                <span class="text-4xl">💔</span>
-                <div>デートDV（婚姻関係のない交際相手からの暴力）</div>
+        <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div class="bg-[#f8f1eb] rounded-2xl p-6 flex gap-4">
+                <span class="text-3xl">💔</span>
+                <div>
+                    <div class="font-medium mb-1">デートDV</div>
+                    <div class="text-sm text-[#6b5d55]">婚姻関係のない交際相手からの暴力で悩んでいる方</div>
+                </div>
             </div>
-            <div class="flex gap-4">
-                <span class="text-4xl">🏠</span>
-                <div>同棲解消で家賃滞納・住居喪失の危機</div>
+            <div class="bg-[#f8f1eb] rounded-2xl p-6 flex gap-4">
+                <span class="text-3xl">🏠</span>
+                <div>
+                    <div class="font-medium mb-1">住居の危機</div>
+                    <div class="text-sm text-[#6b5d55]">同棲解消や家を追い出されそうで、家賃滞納・住居喪失の不安がある方</div>
+                </div>
             </div>
-            <div class="flex gap-4">
-                <span class="text-4xl">🗣️</span>
-                <div>精神的DVで「家にいられない」状態</div>
+            <div class="bg-[#f8f1eb] rounded-2xl p-6 flex gap-4">
+                <span class="text-3xl">🗣️</span>
+                <div>
+                    <div class="font-medium mb-1">精神的DV・性的暴力</div>
+                    <div class="text-sm text-[#6b5d55]">「家にいられない」「逃げたいけど経済的に無理」「性的暴力を受けながら住む場所に困っている」方</div>
+                </div>
             </div>
-            <div class="flex gap-4">
-                <span class="text-4xl">🔒</span>
-                <div>性的暴力を受けながら住む場所に困っている</div>
+            <div class="bg-[#f8f1eb] rounded-2xl p-6 flex gap-4">
+                <span class="text-3xl">💴</span>
+                <div>
+                    <div class="font-medium mb-1">経済的DV</div>
+                    <div class="text-sm text-[#6b5d55]">「遺産を受け取った途端に生活費を入れてもらえなくなった」「お金を管理・支配されている」方</div>
+                </div>
+            </div>
+            <div class="bg-[#f8f1eb] rounded-2xl p-6 flex gap-4 md:col-span-2">
+                <span class="text-3xl">👨‍👩‍👧</span>
+                <div>
+                    <div class="font-medium mb-1">子どもへの暴力が心配</div>
+                    <div class="text-sm text-[#6b5d55]">「パートナーが子どもに厳しすぎる気がする」「躾なのか暴力なのか判断できない」「指摘したいけど怖くて言えない」——夫婦関係のために見て見ぬふりをしてきた方も、どうかひとりで抱え込まないでください。</div>
+                </div>
             </div>
         </div>
     </section>
@@ -249,14 +273,19 @@
     <!-- 私たちについて（信頼感UP） -->
     <section class="max-w-6xl mx-auto px-6 py-20 border-t border-[#e8d9d0]">
         <h2 class="section-header text-3xl font-semibold mb-8">私たち支援ネットについて</h2>
-        <div class="grid md:grid-cols-12 gap-8">
+        <div class="grid md:grid-cols-12 gap-8 items-center">
+            <div class="md:col-span-5 rounded-3xl overflow-hidden shadow">
+                <img src="https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=800"
+                     alt="相談員とのやりとり"
+                     class="w-full h-64 object-cover">
+            </div>
             <div class="md:col-span-7">
                 <p class="text-lg text-[#6b5d55]">埼玉・東京・千葉を中心に17年間活動。延べ1,500件以上のDV被害者・生活困窮者の住まい支援をしてきました。</p>
                 <p class="mt-6 text-sm text-[#9c8a80]">行政と連携しながら、個室シェルター提供、生活保護申請同行、就労支援など、実際に「逃げてから立て直す」現場を支えてきました。</p>
-            </div>
-            <div class="md:col-span-5 text-center text-[#9c8a80] text-sm bg-[#f8f1eb] rounded-3xl p-6">
-                代表相談員<br>
-                <span class="block text-2xl text-[#0f766e] mt-2">「一人でも多くの女性が安全な居場所を手に入れられるように」</span>
+                <div class="mt-6 text-[#9c8a80] text-sm bg-[#f8f1eb] rounded-3xl p-6">
+                    代表相談員より<br>
+                    <span class="block text-xl text-[#0f766e] mt-2">「一人でも多くの女性が安全な居場所を手に入れられるように」</span>
+                </div>
             </div>
         </div>
     </section>
@@ -281,6 +310,11 @@
     <!-- FINAL CTA -->
     <section id="voice" class="bg-[#0f766e] text-white py-20">
         <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="mb-10 rounded-3xl overflow-hidden shadow-xl mx-auto max-w-xl">
+                <img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&w=800"
+                     alt="開いた扉・新しい一歩"
+                     class="w-full h-52 object-cover opacity-80">
+            </div>
             <p class="text-[#d8c5b8] text-sm tracking-widest mb-3">DV被害で家を失いそう…という方へ</p>
             <h2 class="text-4xl font-semibold mb-8">あなたの声が、同じ悩みを抱える女性の未来を変えます</h2>
             
